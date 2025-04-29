@@ -1,18 +1,21 @@
 /* NAVIGATION */
 /* Hide Home Button */
+.mainDrawerButton {
+  display: none;
+}
 .headerHomeButton {
   display: none;
 }
 .headerButton.headerButtonRight.headerUserButton.paper-icon-button-light {
   display: none;
 }
-
-/* Hide Cast Button */
 .headerCastButton {
   display: none;
 }
-/* Hide Group / Sync Button */
 .headerSyncButton {
+  display: none;
+}
+.headerSearchButton {
   display: none;
 }
 
@@ -52,5 +55,17 @@
   display: none;
 }
 .detailPagePrimaryContent {
+  display: none;
+}
+.similarCollapsible {
+  display: none;
+}
+
+/* Video Player */
+.osdTimeText,
+.btnVideoOsdSettings,
+.btnAirPlay,
+.btnPip,
+.btnFullscreen {
   display: none;
 }
