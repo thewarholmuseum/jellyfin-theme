@@ -1,9 +1,17 @@
+/* NAVIGATION */
+/* Hide Home Button */
 .headerHomeButton {
-  /* 	display: none; */
-    color: red;
-  }
-  
-  .headerButton.headerButtonRight.headerUserButton.paper-icon-button-light {
-  /* 	display: none; */
-    color: red;
-  }
+  display: none;
+}
+.headerButton.headerButtonRight.headerUserButton.paper-icon-button-light {
+  display: none;
+}
+
+/* Hide Cast Button */
+.headerCastButton {
+  display: none;
+}
+/* Hide Group / Sync Button */
+.headerSyncButton {
+  display: none;
+}
