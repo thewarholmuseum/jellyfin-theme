@@ -34,10 +34,23 @@
 .btnFilter {
   display: none;
 }
-
+.padded-right-withalphapicker {
+  padding-right: max(env(safe-area-inset-left),3.3%) !important;
+}
 
 /* Alphabet Picker Row */
 .alphaPicker {
   display: none;
 }
 
+
+
+/* Detail Page */
+.btnUserRating,
+.btnPlaystate,
+.btnMoreCommands {
+  display: none;
+}
+.detailPagePrimaryContent {
+  display: none;
+}
