@@ -1,5 +1,8 @@
 /* NAVIGATION */
 /* Hide Home Button */
+.pageTitleWithLogo {
+  display: none;
+}
 .mainDrawerButton {
   display: none;
 }
@@ -57,7 +60,7 @@
 .detailPagePrimaryContent {
   display: none;
 }
-.similarCollapsible {
+#similarCollapsible {
   display: none;
 }
 
