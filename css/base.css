@@ -1,7 +1,9 @@
 /* NAVIGATION */
 /* Hide Home Button */
 .pageTitleWithLogo {
-  display: none;
+  height: 40px;
+  display: block;
+  background-image: none !important;
 }
 .mainDrawerButton {
   display: none;
@@ -70,5 +72,8 @@
 .btnAirPlay,
 .btnPip,
 .btnFullscreen {
+  display: none;
+}
+.endsAt.mediaInfoItem {
   display: none;
 }
