@@ -15,3 +15,29 @@
 .headerSyncButton {
   display: none;
 }
+
+/* Current Time */
+.currentTimeText {
+  display: none;
+}
+
+/* Nav Tabs */
+.headerTabs {
+  display: none;
+}
+
+/* Page Options */
+.listPaging,
+.btnShuffle,
+.btnSelectView,
+.btnSort,
+.btnFilter {
+  display: none;
+}
+
+
+/* Alphabet Picker Row */
+.alphaPicker {
+  display: none;
+}
+
